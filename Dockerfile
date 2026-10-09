@@ -1,4 +1,4 @@
-FROM quay.io/astronomer/astro-runtime:3.2-9
+FROM quay.io/astronomer/astro-runtime:3.3-9
 
 # --- venv isolado para o dbt (Cosmos vai usar este binário) ---
 RUN python -m venv dbt_venv && \
